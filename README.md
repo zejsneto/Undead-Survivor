@@ -4,7 +4,7 @@
 
 Undead Survivor is a 2D survivor game made using Unity/C# where the objective is to survive waves of enemies.
 
-Link: [Play Game](https://zejsneto.itch.io/undeadsurvivor)<br>
+Link: [Play Game](https://zejsneto.itch.io/undead-survivor)<br>
 
 ---
 
