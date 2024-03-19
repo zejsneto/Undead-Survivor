@@ -10,13 +10,13 @@ Link: [Play Game](https://zejsneto.itch.io/undead-survivor)<br>
 
 ## 👁️‍🗨️ Preview
 <p align="center">
-  <img width="70%" src="/repository-assets/img1.png" />
+  <img width="70%" src="/repository-assets/img1.jpg" />
 </p>
 <p align="center">
-  <img width="70%" src="/repository-assets/img2.png" />
+  <img width="70%" src="/repository-assets/img2.jpg" />
 </p>
 <p align="center">
-  <img width="70%" src="/repository-assets/img3.png" />
+  <img width="70%" src="/repository-assets/img3.jpg" />
 </p>
 
 ---
