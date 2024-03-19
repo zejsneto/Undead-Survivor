@@ -1,0 +1,743 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'pt' Physical Memory: 65291 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/zenet/Downloads/Unity/Undead-Survivor(WebV2)
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58250
+Successfully changed project path to: C:/Users/zenet/Downloads/Unity/Undead-Survivor(WebV2)
+C:/Users/zenet/Downloads/Unity/Undead-Survivor(WebV2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35252] Host "[IP] 192.168.15.187 [Port] 0 [Flags] 2 [Guid] 1034443835 [EditorId] 1034443835 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V59G1FA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [35252] Host "[IP] 192.168.15.187 [Port] 0 [Flags] 2 [Guid] 1034443835 [EditorId] 1034443835 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V59G1FA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 12.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/zenet/Downloads/Unity/Undead-Survivor(WebV2)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
+    Vendor:   NVIDIA
+    VRAM:     12010 MB
+    Driver:   31.0.15.4601
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.016752 seconds.
+- Loaded All Assemblies, in  0.329 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 196 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.492 seconds
+Domain Reload Profiling: 819ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (492ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (442ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (302ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.744 seconds
+Refreshing native plugins compatible for Editor in 6.00 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.750 seconds
+Domain Reload Profiling: 1489ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (513ms)
+		LoadAssemblies (371ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (166ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (751ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (591ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 5.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6234 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 120 unused Assets / (0.7 MB). Loaded Objects now: 6682.
+Memory consumption went from 237.0 MB to 236.2 MB.
+Total: 3.799200 ms (FindLiveObjects: 0.537000 ms CreateObjectMapping: 0.178100 ms MarkObjects: 2.713300 ms  DeleteObjects: 0.369600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (0.7 MB). Loaded Objects now: 6682.
+Memory consumption went from 119.5 MB to 118.9 MB.
+Total: 3.884100 ms (FindLiveObjects: 0.366500 ms CreateObjectMapping: 0.132200 ms MarkObjects: 2.817900 ms  DeleteObjects: 0.567100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28200.689020 seconds.
+  path: Assets/Data/Item 0.asset
+  artifactKey: Guid(9f055ec638051de4187854ccac68f8e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Data/Item 0.asset using Guid(9f055ec638051de4187854ccac68f8e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b04745aead964dbe45bc5160c5a92f4f') in 0.171757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Data/Item 2.asset
+  artifactKey: Guid(dbb91dd58df283648b9ce6ea6e1d6a97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Data/Item 2.asset using Guid(dbb91dd58df283648b9ce6ea6e1d6a97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1544c898ba1271afbceefb8caf214e1e') in 0.011910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imports/Undead Survivor/Sprites/Enemy 4.png
+  artifactKey: Guid(c4d2ccab0c2ad7e47853b6e31a7ac7c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Sprites/Enemy 4.png using Guid(c4d2ccab0c2ad7e47853b6e31a7ac7c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9514f8db35cb9b05f9c37c6b5f4d6bf0') in 0.056735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Enemy/AcEnemy 4.overrideController
+  artifactKey: Guid(25f7a818644b68042bb0c0c2a28d1550) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Enemy/AcEnemy 4.overrideController using Guid(25f7a818644b68042bb0c0c2a28d1550) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0887d1d3717c0995e0dc6254f46de4d1') in 0.013892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Enemy/HitEnemy 1.anim
+  artifactKey: Guid(0a586f2d17b3b3246b04c8dda1442acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Enemy/HitEnemy 1.anim using Guid(0a586f2d17b3b3246b04c8dda1442acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '984d8c15d5f7cf64afe2512c0c67e0fe') in 0.012979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Player/RunPlayer0.anim
+  artifactKey: Guid(2bccf29b8d6c8b54cb40a851c1da23fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Player/RunPlayer0.anim using Guid(2bccf29b8d6c8b54cb40a851c1da23fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '023883fc40ef658bed3d8234439fa7ad') in 0.013858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imports/Undead Survivor/Audio/Dead.wav
+  artifactKey: Guid(291608b8d286e2a4580ff36324455ce2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Audio/Dead.wav using Guid(291608b8d286e2a4580ff36324455ce2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b94927881a2d2d8ed0acac35fcba3a7c') in 0.033731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imports/Undead Survivor/Audio/Melee0.wav
+  artifactKey: Guid(14f24de2a9a70154e96297de25e2184c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Audio/Melee0.wav using Guid(14f24de2a9a70154e96297de25e2184c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc2d83a126d92f3f2c1761216e84b31b') in 0.030759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
+  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc6d8fe5ddcc234bd972cf0e80dea6e5') in 0.044079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Player/StandPlayer0.anim
+  artifactKey: Guid(0d755af274fb9ae4db8b524229858b1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Player/StandPlayer0.anim using Guid(0d755af274fb9ae4db8b524229858b1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5776175b34a3b4b97196f329d0a91ffb') in 0.012297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imports/Undead Survivor/Sprites/Tiles.png
+  artifactKey: Guid(9ee30eb7d2f1f404790266ee96a67099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Sprites/Tiles.png using Guid(9ee30eb7d2f1f404790266ee96a67099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b8defc7153bc2a62343e080f347f80a') in 0.025931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imports/Undead Survivor/Sprites/Farmer 1.png
+  artifactKey: Guid(0c187a32c5bde4747be8d00770b07403) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Sprites/Farmer 1.png using Guid(0c187a32c5bde4747be8d00770b07403) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '32c59e9c7ddd52d5527679ed9914219b') in 0.029647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Data/Item 4.asset
+  artifactKey: Guid(cca46fefa343e6c4a9b4c30a0ad93f95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Data/Item 4.asset using Guid(cca46fefa343e6c4a9b4c30a0ad93f95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4099a1f2701ee25a236d7270579b954b') in 0.011638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Player/AcPlayer.controller
+  artifactKey: Guid(f8ee7aaffb1e3ff49a4bfc8c7908dfab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Player/AcPlayer.controller using Guid(f8ee7aaffb1e3ff49a4bfc8c7908dfab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76bb2038d120abcfc9c5128908453b74') in 0.010294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/ItemData.cs
+  artifactKey: Guid(a4482bed21b197e478fa3b8c8cd089a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/ItemData.cs using Guid(a4482bed21b197e478fa3b8c8cd089a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4baccd94760d7cb95bdb3e23a40f6c21') in 0.011446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Enemy/HitEnemy 3.anim
+  artifactKey: Guid(5a98b614fb5327b429bd16f5a70bcb19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Enemy/HitEnemy 3.anim using Guid(5a98b614fb5327b429bd16f5a70bcb19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d08034818b6e470eb52cb5ef9419834') in 0.013416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imports/Undead Survivor/Complete Pack.unitypackage
+  artifactKey: Guid(030e7f4fbd7038847858e7cd3a17b66f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Complete Pack.unitypackage using Guid(030e7f4fbd7038847858e7cd3a17b66f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '755f01d4451de206a189e6c6c32dd6f7') in 0.011810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/AudioManager.cs
+  artifactKey: Guid(e5950ced56e11e545a60199916d1fb96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/AudioManager.cs using Guid(e5950ced56e11e545a60199916d1fb96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ccd43d76c0042a68d2cd7292c035af20') in 0.012005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imports/Undead Survivor/Player.inputactions
+  artifactKey: Guid(614cd1ae099d386449185e780d4ff27a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Player.inputactions using Guid(614cd1ae099d386449185e780d4ff27a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '542e9759979957ec87f4df274025b74d') in 0.023470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Enemy/DeadEnemy 3.anim
+  artifactKey: Guid(4763a7742cfcd484e818645aa1a2ba2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Enemy/DeadEnemy 3.anim using Guid(4763a7742cfcd484e818645aa1a2ba2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f29053e461bdafc821e8864cf9ccf288') in 0.013747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Data/Item 3.asset
+  artifactKey: Guid(e2f843517168faa449c268b174515781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Data/Item 3.asset using Guid(e2f843517168faa449c268b174515781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c64d18e3187223949758a86f42b41a64') in 0.012617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Player/AcPlayer3.overrideController
+  artifactKey: Guid(6bee5c9ee6cf0a34cb7210c01d63fd2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Player/AcPlayer3.overrideController using Guid(6bee5c9ee6cf0a34cb7210c01d63fd2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d0446092cd9f1730ce89cc554431428') in 0.013619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/AchieveManager.cs
+  artifactKey: Guid(d561e4c93fee9ca4ca41c41e93c05a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/AchieveManager.cs using Guid(d561e4c93fee9ca4ca41c41e93c05a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c44f837c11d7a6da052caf38b2dd9f6') in 0.011320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imports/Undead Survivor/Icon.png
+  artifactKey: Guid(8cf32bb594965f3449d71aab39ee30ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Icon.png using Guid(8cf32bb594965f3449d71aab39ee30ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9212aa09fc7159f1ee6c1e008e1625aa') in 0.020550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Player/RunPlayer3.anim
+  artifactKey: Guid(b92b347a50b00824eb1590189993d984) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Player/RunPlayer3.anim using Guid(b92b347a50b00824eb1590189993d984) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f547d0e03661ea2f52e40b95c1c3e1f6') in 0.013151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Enemy/RunEnemy 4.anim
+  artifactKey: Guid(d76b09b73a021874f9af9172d665d80b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Enemy/RunEnemy 4.anim using Guid(d76b09b73a021874f9af9172d665d80b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4f3b019954b1a647a5f8451a9b46353a') in 0.011569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/Gear.cs
+  artifactKey: Guid(c439dc012cfd1d44087bcf9ceb6b3ff1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Gear.cs using Guid(c439dc012cfd1d44087bcf9ceb6b3ff1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67564b138a47938d8511edf531012d87') in 0.011248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imports/Undead Survivor/ReadMe Kr.pdf
+  artifactKey: Guid(92a3bf4408ea1bb4eac49f903c89fdb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/ReadMe Kr.pdf using Guid(92a3bf4408ea1bb4eac49f903c89fdb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b96c977fecbafa263be99e779e4be225') in 0.009168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Imports/Undead Survivor/Sprites/UI.png
+  artifactKey: Guid(d71a3dc7aa20fad4f9a99fc76a9254ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Sprites/UI.png using Guid(d71a3dc7aa20fad4f9a99fc76a9254ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62b690220c680ae9c7b60ac2f747b2a5') in 0.042425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Enemy/RunEnemy 3.anim
+  artifactKey: Guid(b4a0a79e089002248b6884ec0140d6d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Enemy/RunEnemy 3.anim using Guid(b4a0a79e089002248b6884ec0140d6d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c82f8df786bbc6a74b758f3055e5a7f') in 0.013881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Enemy/RunEnemy 1.anim
+  artifactKey: Guid(f9fa0eff94f5c1b44a0e75ebc7f67861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Enemy/RunEnemy 1.anim using Guid(f9fa0eff94f5c1b44a0e75ebc7f67861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '04fb41a78afb4f1004382a825797cef1') in 0.013220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Player/RunPlayer1.anim
+  artifactKey: Guid(440f4fa3bd9be0f4a8b98891bb343940) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Player/RunPlayer1.anim using Guid(440f4fa3bd9be0f4a8b98891bb343940) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0443cd58dce83d784a3fe27a708b16b0') in 0.012999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imports/Undead Survivor/ReadMe Jp.pdf
+  artifactKey: Guid(105ed2a811f9c1c419d075927da41abc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/ReadMe Jp.pdf using Guid(105ed2a811f9c1c419d075927da41abc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '44e682ea0d1e3fc9dfaed0649153d8c5') in 0.009007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imports/Undead Survivor/Demo/Demo.unity
+  artifactKey: Guid(38e5db794b8649e42b8feb732f733f6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Demo/Demo.unity using Guid(38e5db794b8649e42b8feb732f733f6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5868a4c196aaa34d23740055b582c0d4') in 0.009152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Bullet 1.prefab
+  artifactKey: Guid(bc0d2b9de5fe16f449c4c501ef73b4c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Bullet 1.prefab using Guid(bc0d2b9de5fe16f449c4c501ef73b4c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd859254f7771bb01fe236a4263590c02') in 0.022939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Player/DeadPlayer1.anim
+  artifactKey: Guid(0bb0758bfdf921946a180a66546cb6da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Player/DeadPlayer1.anim using Guid(0bb0758bfdf921946a180a66546cb6da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98955ba23b8cfbbcb33dd60cee070b88') in 0.013221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Enemy/AcEnemy 1.overrideController
+  artifactKey: Guid(050556270436d4f4288557291a1a99c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Enemy/AcEnemy 1.overrideController using Guid(050556270436d4f4288557291a1a99c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd4ec6ae1c0635b92483de734dee290f7') in 0.013934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Player/StandPlayer2.anim
+  artifactKey: Guid(1c9752a614b3ff649aa7d2fd0e8bf0d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Player/StandPlayer2.anim using Guid(1c9752a614b3ff649aa7d2fd0e8bf0d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c9be61202306013b34f491a0be98e8bf') in 0.013380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Player/AcPlayer1.overrideController
+  artifactKey: Guid(360c0c9637b4cb84dbb7535b3a6221f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Player/AcPlayer1.overrideController using Guid(360c0c9637b4cb84dbb7535b3a6221f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b519ff455fb4f658071bcfb78b3686db') in 0.014351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/LevelUp.cs
+  artifactKey: Guid(6b2e3ffdf0338274e8d00a311388bd3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/LevelUp.cs using Guid(6b2e3ffdf0338274e8d00a311388bd3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21e53e61c51a72f890aa7f78abc7454a') in 0.010666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(29e93474722bffe4797d1d1c511e0e5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Hand.cs using Guid(29e93474722bffe4797d1d1c511e0e5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ecbaab8eb9728c6b86dde83b0ff6e428') in 0.012288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/Reposition.cs
+  artifactKey: Guid(9ef01642f9cf83d408e312cf4674673a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Reposition.cs using Guid(9ef01642f9cf83d408e312cf4674673a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9ef443875f24807d1348258c16f726f') in 0.012410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0850b62e2f580f53c6c278a93fccc931') in 0.029778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Player/DeadPlayer3.anim
+  artifactKey: Guid(f6239704745bc5846ba8e008ca1f5b32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Player/DeadPlayer3.anim using Guid(f6239704745bc5846ba8e008ca1f5b32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec00a388f64d68dc2bb9bf70f7a4e861') in 0.012976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imports/Undead Survivor/Tiles/RanTile.asset
+  artifactKey: Guid(a689960881fca7843948244b3ebf663a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Tiles/RanTile.asset using Guid(a689960881fca7843948244b3ebf663a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34d7e33599141130cba003f5df0f46bf') in 0.015483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Player/DeadPlayer0.anim
+  artifactKey: Guid(23f2190357c0ec443ba003d502c437eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Player/DeadPlayer0.anim using Guid(23f2190357c0ec443ba003d502c437eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb3a22d97e8263d44611770d6e08f1d8') in 0.012397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imports/Undead Survivor/Tiles/Pal.prefab
+  artifactKey: Guid(bd1d3a307d09cb440a7361eecc9c3d8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Tiles/Pal.prefab using Guid(bd1d3a307d09cb440a7361eecc9c3d8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6fcd1ddaf33cf36e889c6cf6be1285db') in 0.014115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Player/DeadPlayer2.anim
+  artifactKey: Guid(f897567250d20fa418c1931ed34da6e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Player/DeadPlayer2.anim using Guid(f897567250d20fa418c1931ed34da6e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '84bc13a741438f44d44ed9136c339172') in 0.011688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/Result.cs
+  artifactKey: Guid(324e25da446ac48408903404040c138f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Result.cs using Guid(324e25da446ac48408903404040c138f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1466db626e522e64801e4d40f827b960') in 0.012113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imports/Undead Survivor/Sprites/Farmer 2.png
+  artifactKey: Guid(8f7a60065e3984c489b9c4d41bc3dc4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Sprites/Farmer 2.png using Guid(8f7a60065e3984c489b9c4d41bc3dc4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '57c01bab292081b57da0d876a1ea0773') in 0.032496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Enemy/HitEnemy 4.anim
+  artifactKey: Guid(6a46f5dc3fb296a46b193c1f02f99119) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Enemy/HitEnemy 4.anim using Guid(6a46f5dc3fb296a46b193c1f02f99119) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b8d4c3ff79de6c564f1bc7c98a2c711') in 0.012795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(79e1b50b0a658024e88eccfc5860efff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Spawner.cs using Guid(79e1b50b0a658024e88eccfc5860efff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '565685a168cab840cdd8c436e7263989') in 0.011655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Enemy/HitEnemy 0.anim
+  artifactKey: Guid(73e523c9f83f7514592d0f96d2c26d67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Enemy/HitEnemy 0.anim using Guid(73e523c9f83f7514592d0f96d2c26d67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81f63885f3178dbddcbdd0f96170b98f') in 0.015337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Imports/Undead Survivor/Sprites/Farmer 3.png
+  artifactKey: Guid(57a1443e67528144aa07582927559650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Sprites/Farmer 3.png using Guid(57a1443e67528144aa07582927559650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9e610e742aacec76cf26b2448f7af9c') in 0.030376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Enemy/RunEnemy 0.anim
+  artifactKey: Guid(41eb84b5ea0c13b4384ead9f37ce4b8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Enemy/RunEnemy 0.anim using Guid(41eb84b5ea0c13b4384ead9f37ce4b8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '83f9e5378bc952b8b8d91559331da289') in 0.015622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/Weapon.cs
+  artifactKey: Guid(17be350fb961d0c42b4e431d36cf4d08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Weapon.cs using Guid(17be350fb961d0c42b4e431d36cf4d08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72166360aac7beaa62e768e890953d41') in 0.012521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Data/Item 1.asset
+  artifactKey: Guid(39fedc675d7d5cf42adb4dec73762c23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Data/Item 1.asset using Guid(39fedc675d7d5cf42adb4dec73762c23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '04e64b0781dd29efb917b72060d31c34') in 0.016858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imports/Undead Survivor/Animations/Player/StandPlayer3.anim
+  artifactKey: Guid(49b8e77f709961a40845fd72c471f9f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Undead Survivor/Animations/Player/StandPlayer3.anim using Guid(49b8e77f709961a40845fd72c471f9f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f41c9d34336709b02d32c158723a35b8') in 0.015693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(68c281f2c8371ed4b9379d92e22461d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/GameManager.cs using Guid(68c281f2c8371ed4b9379d92e22461d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb59b775f6ea49a6386d94bfeeebd556') in 0.013245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(d2c61131a83eb3247b6e0c8ba2cc4c77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Enemy.cs using Guid(d2c61131a83eb3247b6e0c8ba2cc4c77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f01677fe74ab7ee1a4413c66bb5d6934') in 0.011101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.717995 seconds.
+  path: Assets/Imports/Undead Survivor/Sprites/Enemy 3.png
+  artifactKey: Guid(d33598d781682e049a53a0a13104ef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Undead Survivor/Sprites/Enemy 3.png using Guid(d33598d781682e049a53a0a13104ef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8fc497b739e5976c61ca4fe698d1f8') in 0.208706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imports/Undead Survivor/Sprites/Tiles.png
+  artifactKey: Guid(9ee30eb7d2f1f404790266ee96a67099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Undead Survivor/Sprites/Tiles.png using Guid(9ee30eb7d2f1f404790266ee96a67099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656bee0d71ef8b930207aebf46b918fa') in 0.105178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (0.7 MB). Loaded Objects now: 6690.
+Memory consumption went from 119.7 MB to 119.1 MB.
+Total: 5.290700 ms (FindLiveObjects: 0.400400 ms CreateObjectMapping: 0.162100 ms MarkObjects: 4.374700 ms  DeleteObjects: 0.352500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
